@@ -34,7 +34,7 @@
 
 ## 💬 요구 사항 정의
 1. **키오스크 기능**
-    - 메뉴 표시: 사용자가 선택할 수 있도록 햄버거 메뉴 표시.
+    - 메뉴 표시: 사용자가 선택할 수 있도록 메뉴 표시.
     - 메뉴 선택: 사용자가 메뉴를 선택할 수 있도록 함.
     - 프로그램 종료: 사용자가 프로그램을 종료할 수 있는 기능 제공.
 
@@ -84,7 +84,9 @@ bash git clone https://github.com/YJ-Kkang/spaKiosk.git .
 <br>
 
 ## 📚 사용 예시
+- Lv1
 
+![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv1Ex.png?raw=true)
 
 <br>
 
