@@ -28,7 +28,7 @@ public class Kiosk {
                 System.out.print("메뉴 번호를 선택하세요 (종료: 0): ");
                 userInput = sc.nextInt();
             } catch (Exception e) {
-                System.out.println("잘못된 입력입니다. 숫자를 입력하세요.");
+                System.out.println("잘못된 입력입니다. 다시 시도하세요.");
                 //구분선 출력
                 System.out.println("-".repeat(70));
                 // 잘못된 입력값 버퍼에서 제거
