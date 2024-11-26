@@ -24,13 +24,17 @@ public class Main {
                 userInput = sc.nextInt();
             } catch (Exception e) {
                 System.out.println("잘못된 입력입니다. 다시 시도하세요.");
-                // 잘못된 입력값 버퍼에서 제거
+                //잘못된 입력값 버퍼에서 제거
                 sc.nextLine();
+                //구분선 출력
+                System.out.println("-".repeat(70));
                 continue;
             }
             //유저가 음수를 입력하는 경우
             if (userInput < 0) {
                 System.out.println("잘못된 입력입니다. 다시 시도하세요.");
+                //구분선 출력
+                System.out.println("-".repeat(70));
                 continue;
             }
 
@@ -53,8 +57,10 @@ public class Main {
                     break;
                 //유저가 제시된 메뉴 이외의 것을 입력하는 경우
                 default:
-                    System.out.println("잘못된 입력입니다. 다시 시도하세요.");
+                    System.out.println("잘못된 입력입1니다. 다시 시도하세요.");
             }
+            //구분선 출력
+            System.out.println("-".repeat(70));
         }
     }
 }
