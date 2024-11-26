@@ -16,6 +16,6 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        return name + " | W " + price + " | " + description;
+        return name + " | ₩ " + price + " | " + description;
     }
 }
