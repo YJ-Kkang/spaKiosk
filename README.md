@@ -48,14 +48,14 @@
 ## 📝 설계
 1. **클래스 다이어그램**
 - `Main`: 시작 지점
-- `MenuItem`: 세부 메뉴 속성(햄버거의 이름, 가격, 설명)
+- `MenuItem`: 세부 메뉴 속성(메뉴의 이름, 가격, 설명)
 - `Kiosk`: 프로그램 순서 및 흐름 제어 담당
 - `Menu`: MenuItem 클래스 관리하는 클래스(버거 메뉴, 음료 메뉴 등 각 카테고리 내에 여러 `MenuItem`을 포함)
 
 2. **기능 분해**: 주요 기능을 메소드로 분리.
-- `menuList()`
-- `getter()`
-- `setter()`
+- `printMenu()`: 메뉴를 화면에 출력
+- `handleInput()`: 사용자 입력 처리
+- `start()`: 프로그램의 메인 루프 실행
 
 3. **데이터 흐름 설계**: 데이터가 클래스 간에 어떻게 흐를지를 결정.
 - 입력: 사용자가 콘솔에 메뉴 번호 입력.
@@ -96,6 +96,12 @@ bash git clone https://github.com/YJ-Kkang/spaKiosk.git .
 ![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_2_ex_1.png?raw=true)
 ![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_2_ex_2.png?raw=true)
 
+<br>
+
+### Lv 3
+
+![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_3_ex_1.png?raw=true)
+![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_3_ex_2.png?raw=true)
 
 <br>
 
