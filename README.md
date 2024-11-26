@@ -84,9 +84,18 @@ bash git clone https://github.com/YJ-Kkang/spaKiosk.git .
 <br>
 
 ## 📚 사용 예시
-- Lv1
+### Lv 1
 
-![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv1Ex.png?raw=true)
+![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_1_ex_1.png?raw=true)
+![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_1_ex_2.png?raw=true)
+
+<br>
+
+### Lv 2
+
+![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_2_ex_1.png?raw=true)
+![title](https://github.com/YJ-Kkang/spaKiosk/blob/dev/images/lv_2_ex_2.png?raw=true)
+
 
 <br>
 
