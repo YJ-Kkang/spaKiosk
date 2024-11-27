@@ -48,7 +48,8 @@ public class Kiosk {
     }
 
     private int getUserInput(Scanner sc, String prompt) {
-        int userInput = -1;
+        int userInput = -1; //userInput 변수를 음수로 초기화하여 루프가 처음에 실행되도록 함
+        
         while (true) {
             try {
                 System.out.print(prompt);
