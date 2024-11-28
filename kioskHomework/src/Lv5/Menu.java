@@ -46,7 +46,7 @@ public class Menu {
              */
             System.out.printf("%d. %s%n", (i + 1), menuItems.get(i).toString());
         }
-        // 뒤로 가기 옵션
+        // 뒤로가기 옵션
         System.out.println("0. 뒤로가기");
     }
 }

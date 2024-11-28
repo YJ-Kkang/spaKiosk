@@ -29,7 +29,7 @@ public class Main {
         desserts.addMenuItem(new MenuItem("RedVelvetCake  ", 3.7, "레드벨벳 케이크"));
         desserts.addMenuItem(new MenuItem("CheeseCake     ", 3.9, "치즈케이크"));
 
-        //Kiosk 객체 생성 및 메뉴 추가
+        //Kiosk 객체 생성, 메뉴 추가
         Kiosk kiosk = new Kiosk();
         kiosk.addMenu(burgers);
         kiosk.addMenu(drinks);

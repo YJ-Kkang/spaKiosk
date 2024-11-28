@@ -59,7 +59,7 @@ public class Kiosk {
         sc.close();
     }
 
-    //메인 메뉴 출력 메서드
+    //메인메뉴 출력 메서드
     private void printMainMenu() {
         System.out.println("[ MAIN MENU ]");
         for (int i = 0; i < menus.size(); i++) {
@@ -91,7 +91,7 @@ public class Kiosk {
         return userInput;
     }
 
-    //서브 메뉴 선택 처리 메서드
+    //서브메뉴 선택 처리 메서드
     private void handleMenuSelection(Scanner sc, Menu menu) {
         int userInput;
 
@@ -99,7 +99,7 @@ public class Kiosk {
             //선택된 메뉴 출력
             printSubMenu(menu);
 
-            //서브 메뉴 입력 처리
+            //서브메뉴 입력 처리
             userInput = getUserInput(sc, "메뉴 번호를 선택하세요 (뒤로가기: 0): ");
 
             if (userInput == 0) break;
